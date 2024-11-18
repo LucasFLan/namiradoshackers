@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Na Mira dos Hackers</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Na Mira dos Hackers</h1>
+    <div id="post-container" class="post">
+      <img id="post-image" src="" alt="Imagem da postagem">
+      <div id="post-content" class="post-content"></div>
+      <div class="actions">
+        <button class="btn btn-safe" onclick="evaluatePost('safe')">É Seguro</button>
+        <button class="btn btn-danger" onclick="evaluatePost('danger')">Não é seguro</button>
+      </div>
+    </div>
+    <div id="feedback" class="feedback"></div>
+    <p id="score">Pontuação: 0</p>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
